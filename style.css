@@ -18,7 +18,8 @@ body {
     font-size: 20px;
     padding: 18px 35px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .orange-color {
@@ -27,13 +28,17 @@ body {
 
 header {
     background-color: #FFF8F3;
+    background: url('./images/developer.png'), url('./images/header_bg.png'), #FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 80px auto, 600px auto;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1024px;
+    max-width: 1024px;
     padding-top: 50px;
     margin: 0 auto;
 }
@@ -58,3 +63,57 @@ ul li {
     font-size: 20px;
 }
 
+header .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 25px 0px 160px;
+}
+
+header .hero-container .left-hero {
+    max-width: 585px;
+}
+
+.left-hero h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.left-hero h2 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 5px;
+}
+
+.left-hero p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 25px;
+}
+
+.left-hero div {
+    display: flex;
+    gap: 10px;
+}
+
+.btn2 {
+    color: #FD6E0A;
+    font-size: 20px;
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-container .hero-image img{
+    vertical-align: middle;
+} 
+
+.left-hero div button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
