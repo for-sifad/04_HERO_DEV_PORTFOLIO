@@ -312,20 +312,28 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    .about-parent {
+        padding: 20px 10px 120px;
+    }
+
+    .about-container .card-parent{
+        gap: 30px;
+    }
+
     .skills {
         padding: 20px 10px 120px;
     }
 
     .left-skill {
-    padding: 0px 20px 0px;
-}
+        padding: 0px 20px 0px;
+    }
 
     .skills-container .left-skill h2 {
         font-size: 30px;
         margin-bottom: 15px;
     }
 
-    .skills-container .right-skill {
+    .skills-container .right-skill, .about-container .card-parent {
         flex-direction: column;
     }
 }
