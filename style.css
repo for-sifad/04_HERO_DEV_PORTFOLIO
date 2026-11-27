@@ -265,14 +265,15 @@ header .hero-container .left-hero {
 }
 
 footer {
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
     padding: 130px 165px 100px 165px;
     display: flex;
     justify-content: center;
     gap: 60px;
 }
 
-footer .left-footer h2, .right-footer h2 {
+footer .left-footer h2,
+.right-footer h2 {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
@@ -284,16 +285,17 @@ footer .left-footer p {
     margin: 15px 0px;
 }
 
-footer .left-footer{
+footer .left-footer {
     width: 50%;
 }
 
-footer .left-footer div{
+footer .left-footer div {
     display: flex;
     gap: 12px;
 }
 
-footer .right-footer input, textarea{
+footer .right-footer input,
+textarea {
     width: 460px;
     padding: 18px 30px;
     margin-top: 10px;
@@ -303,4 +305,27 @@ footer .right-footer input, textarea{
 
 .right-footer textarea {
     margin-bottom: 16px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills {
+        padding: 20px 10px 120px;
+    }
+
+    .left-skill {
+    padding: 0px 20px 0px;
+}
+
+    .skills-container .left-skill h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .skills-container .right-skill {
+        flex-direction: column;
+    }
 }
