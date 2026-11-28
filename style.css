@@ -427,7 +427,7 @@ textarea {
         padding: 20px 30px 120px;
     }
 
-     .resume {
+    .resume {
         padding: 50px 30px 100px;
     }
 
@@ -439,7 +439,130 @@ textarea {
         flex-direction: column;
     }
 
-      footer {
+    footer {
         padding: 80px 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        background: url('./images/header_bg.png'), #FFF8F3;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+    }
+
+    header .hero-container {
+        text-align: center;
+        justify-content: center;
+        margin: 20px 20px 0px 20px;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+
+    .btn-group {
+        max-width: 412px;
+        margin: 0 auto;
+    }
+
+    .about-parent {
+        padding: 20px 10px 120px;
+    }
+
+    .about-container .card-parent {
+        gap: 20px;
+    }
+
+    .skills {
+        padding: 20px 30px 120px;
+    }
+
+    .resume {
+        padding: 50px 30px 100px;
+    }
+
+    .skills-container .right-skill {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resume .resume-container,
+    footer,
+    header .hero-container {
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 80px 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .btn2 {
+        font-size: 16px;
+        padding: 12px 24px;
+        display: flex;
+        align-items: center;
+        gap: 4;
+    }
+
+    nav {
+        max-width: 1366px;
+        padding: 24px 120px;
+    }
+
+    .left-hero h2 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #181818;
+        margin-bottom: 5px;
+    }
+
+    .about-parent {
+        padding: 120px 80px 100px 180px;
+    }
+
+    .card-parent div h4 {
+        font-size: 24px;
+        color: #757575;
+    }
+
+    .card-parent div h3 {
+        font-size: 16px;
+        color: #474747;
+    }
+
+    .btn-group {
+        padding-bottom: 20px;
+    }
+
+    .skills {
+        padding: 20px 80px 100px 80px;
+    }
+
+    .skills-container .right-skill {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .resume {
+        padding: 50px 80px 100px;
+    }
+
+    .resume .resume-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    footer {
+        padding: 80px;
     }
 }
