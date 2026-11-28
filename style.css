@@ -348,7 +348,12 @@ textarea {
 
     .skills-container .right-skill,
     .about-container .card-parent,
-    .resume .resume-container {
+    .resume .resume-container, footer {
         flex-direction: column;
     }
+
+    footer {
+    padding: 80px 20px;
+}
+
 }
