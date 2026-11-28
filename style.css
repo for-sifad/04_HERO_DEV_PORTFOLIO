@@ -316,7 +316,16 @@ textarea {
         padding: 20px 10px 120px;
     }
 
-    .about-container .card-parent{
+    .about-container .left-about h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about-container {
+        padding: 20px;
+    }
+
+    .about-container .card-parent {
         gap: 30px;
     }
 
@@ -333,7 +342,13 @@ textarea {
         margin-bottom: 15px;
     }
 
-    .skills-container .right-skill, .about-container .card-parent {
+    .resume {
+    padding: 50px 20px 100px;
+}
+
+    .skills-container .right-skill,
+    .about-container .card-parent,
+    .resume .resume-container {
         flex-direction: column;
     }
 }
