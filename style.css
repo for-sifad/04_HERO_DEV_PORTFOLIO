@@ -312,6 +312,37 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    header {
+        background: url('./images/header_bg.png'), #FFF8F3;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+    }
+
+    header .hero-container {
+        text-align: center;
+        justify-content: center;
+        margin: 20px 20px 0px 20px;
+    }
+
+    nav {
+        padding-top: 20px;
+    }
+
+    .left-hero h3 {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .left-hero h2 {
+        font-size: 55px;
+    }
+
+    .btn-group{
+        max-width: 412px;
+        margin: 0 auto;
+    }
+
     .about-parent {
         padding: 20px 10px 120px;
     }
@@ -343,17 +374,19 @@ textarea {
     }
 
     .resume {
-    padding: 50px 20px 100px;
-}
+        padding: 50px 20px 100px;
+    }
 
     .skills-container .right-skill,
     .about-container .card-parent,
-    .resume .resume-container, footer {
+    .resume .resume-container,
+    nav, footer, 
+    header .hero-container  {
         flex-direction: column;
     }
 
     footer {
-    padding: 80px 20px;
-}
+        padding: 80px 20px;
+    }
 
 }
