@@ -338,7 +338,7 @@ textarea {
         font-size: 55px;
     }
 
-    .btn-group{
+    .btn-group {
         max-width: 412px;
         margin: 0 auto;
     }
@@ -380,13 +380,66 @@ textarea {
     .skills-container .right-skill,
     .about-container .card-parent,
     .resume .resume-container,
-    nav, footer, 
-    header .hero-container  {
+    nav,
+    footer,
+    header .hero-container {
         flex-direction: column;
     }
 
     footer {
         padding: 80px 20px;
     }
+}
 
+@media screen and (max-width: 768px) {
+    header {
+        background: url('./images/header_bg.png'), #FFF8F3;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+    }
+
+    header .hero-container {
+        text-align: center;
+        justify-content: center;
+        margin: 20px 20px 0px 20px;
+    }
+
+    nav {
+        padding: 20px 14px;
+    }
+
+
+    .btn-group {
+        max-width: 412px;
+        margin: 0 auto;
+    }
+
+    .about-parent {
+        padding: 20px 10px 120px;
+    }
+
+    .about-container .card-parent {
+        gap: 20px;
+    }
+
+    .skills {
+        padding: 20px 30px 120px;
+    }
+
+     .resume {
+        padding: 50px 30px 100px;
+    }
+
+    .skills-container .right-skill,
+    .about-container .card-parent,
+    .resume .resume-container,
+    footer,
+    header .hero-container {
+        flex-direction: column;
+    }
+
+      footer {
+        padding: 80px 30px;
+    }
 }
